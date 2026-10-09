@@ -80,13 +80,13 @@
   <h2>Roadmap</h2>
   <p class="note">This is our plan. Items move to "done" only when they work.</p>
 
-  <h3>Now &mdash; foundations</h3>
+  <h3>Done &mdash; foundations (generator v0.1)</h3>
   <ul>
-    <li>Project website and public repository (live).</li>
-    <li>Define the input format: region and population parameters per node.</li>
-    <li>First Python generator that builds a simple province mesh and exports it.</li>
-    <li>Implement the node scaling rule: cylinders under 1,000,000 population, square geometries above.</li>
-    <li>Automated checks for mesh output, and a first demo image.</li>
+    <li>&#10003; Project website and public repository.</li>
+    <li>&#10003; Input format: id, name, population and position per node (JSON).</li>
+    <li>&#10003; First Python generator that builds a mesh per node and exports OBJ plus a JSON manifest.</li>
+    <li>&#10003; Node scaling rule: cylinders under 1,000,000 population, tiered square geometry at 1,000,000 and above.</li>
+    <li>&#10003; Automated checks: 13 unit tests and a mesh validator, plus a first demo image. <a href="https://github.com/isa1az-dev">See the repository</a>.</li>
   </ul>
 
   <h3>Next &mdash; integration</h3>
