@@ -1,0 +1,10 @@
+[
+  {"id": "p01", "name": "Province-01", "population": 85000,    "x": 0,   "z": 0},
+  {"id": "p02", "name": "Province-02", "population": 240000,   "x": 90,  "z": 20},
+  {"id": "p03", "name": "Province-03", "population": 520000,   "x": 170, "z": -30},
+  {"id": "p04", "name": "Province-04", "population": 999999,   "x": 40,  "z": 110},
+  {"id": "p05", "name": "Province-05", "population": 1000000,  "x": 190, "z": 120},
+  {"id": "p06", "name": "Province-06", "population": 2400000,  "x": 330, "z": 40},
+  {"id": "p07", "name": "Province-07", "population": 8500000,  "x": 80,  "z": 290},
+  {"id": "p08", "name": "Province-08", "population": 15000,    "x": 300, "z": 230}
+]
